@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calista Laundry - Clean and Fresh</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f8ff;
+      color: #333;
+    }
+    /* Header */
+    header {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 80px;
+      height: auto;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+    }
+    header p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    /* Navbar */
+    nav {
+      background: #003366;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+
+       /* Section */
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    section h2 {
+      color: #004080;
+      margin-bottom: 20px;
+    }
+
+    /* Cards layanan */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Kontak */
+    .kontak a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      background: #25d366; /* WhatsApp */
+    }
+    .kontak a.ig {
+      background: #e4405f;
+    }
+
+    /* Footer */
+    footer {
+      background: #002244;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo Calista Laundry">
+    <h1>Calista Laundry</h1>
+    <p>Perum Griya Permai No. A4 </p>
+    <p> Jl Dharma Bakti medono | Telp: 085700225684</p>
+  </header>
+
+  <nav>
+     <a href="index.html">Home</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="layanan.html">Layanan</a>
+    <a href="testimoni.html">Testimoni</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+<!-- Kontak -->
+    <section id="kontak">
+      <h2>Hubungi Kami</h2>
+      <div class="kontak">
+        <a href="https://wa.me/6285700225684" target="_blank">WhatsApp</a>
+        <a href="https://instagram.com/calista_laundry2188" target="_blank" class="ig">Instagram</a>
+      </div>
+      <p>📍 PERUM GRIYA PERMAI NO. A4 JL DHARMA BAKTI MEDONO</p>
+      <iframe src="https://www.google.com/maps/embed?..." width="100%" height="250" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+    &copy; 2025 Calista Laundry. All rights reserved.
+  </footer>
+  </body>
+</html>
